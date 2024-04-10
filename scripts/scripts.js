@@ -10,7 +10,7 @@ You are encouraged to use the provided naming convention for ease of review.
 /* create variables to hold the values for modelName and duration */
 
 // INSERT YOUR CODE HERE
-let modelName;
+let modelName = 'XYZ';
 let duration = 0;
 
 /****************** helper function ******************/
@@ -51,7 +51,7 @@ const modelButton = document.getElementById('model-button');
 
 function changeModel() {
     const modelLabel = document.getElementById('model-text');
-    if (modelLabel.innerHTML == 'Model XYZ' || modelName == 'XYZ') {
+    if (modelName == 'XYZ') {
         modelName = 'CPRG';
         modelLabel.innerHTML = 'Model CPRG';
     } else {
